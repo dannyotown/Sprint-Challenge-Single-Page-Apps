@@ -14,7 +14,6 @@ const H1 = styled.h1`
   font-size: 1.5rem;
   font-weight: bold;
 `;
-
 const GreyTexts = styled.p`
   color: grey;
   font-size: 1rem;
@@ -40,7 +39,7 @@ export default function LocationCard(props) {
     <FlexDiv>
     <HR></HR>
     <ResidentsBox>
-      # : Residents
+      0 : Residents
     </ResidentsBox>
     </FlexDiv>
   </Card>);

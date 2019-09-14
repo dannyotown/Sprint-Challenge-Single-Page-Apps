@@ -32,7 +32,7 @@ const Para = styled.p`
 export default function CharacterCard(props) {
   return (
     <CharacterCards>
-      <img src={props.character.image} />
+      <img src={props.character.image} alt={props.character.id} />
       <Infodiv>
         <CharacterH1>{props.character.name}</CharacterH1>
         <CharacterGreytext>{props.character.species} {props.character.status}</CharacterGreytext>

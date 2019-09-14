@@ -1,18 +1,17 @@
 import React from "react";
 import Header from "./components/Header.js";
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import WelcomePage from './components/WelcomePage';
 import CharacterList from "./components/CharacterList.js";
 import EpisodeList from "./components/episodes.js";
 import LocationsList from "./components/LocationsList.js";
-
 
 export default function App() {
   return (
     <main>
       <div>
         <Header />
-        <div class="Navigation">
+        <div className="Navigation">
           <nav>
             <Link to="/"><span className="linkText">Home</span></Link>
             <Link to="/CharacterList"><span className="linkText">Character List</span></Link>

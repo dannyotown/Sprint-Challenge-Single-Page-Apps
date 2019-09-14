@@ -23,6 +23,9 @@ main {
 .page-view {
   min-height: 40vh;
 }
+p{
+  margin: 0%;
+}
 
 .grid-view div.card.ui {
   margin: 1.25rem;

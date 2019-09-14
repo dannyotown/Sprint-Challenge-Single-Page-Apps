@@ -21,8 +21,8 @@ export default function EpisodeList() {
   
     return (
       <section className="character-list grid-view">
-        {episodes.map(episode=>(
-          <EpisodeCard episode={episode} />
+        {episodes.map((episode,index)=>(
+          <EpisodeCard key={index} episode={episode} />
         ))}
       </section>
     )
