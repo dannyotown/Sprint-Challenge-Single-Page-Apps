@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
-const EpisodeCards = styled.div`
+
+const EpisodeCards2 = styled.div`
   height: 100%;
   border: lightgrey .5px solid;
   border-radius: 10px;
@@ -9,22 +10,22 @@ const EpisodeCards = styled.div`
   flex-direction: column;
   margin-top: 1%;
   padding: 2%;
-`
-const EpisodeH1 = styled.h1`
+`;
+const EpisodeH12 = styled.h1`
   font-size: 1.5rem;
   font-weight: bold;
-`
+`;
 
-const EpisodeGreyTexts = styled.p`
+const EpisodeGreyTexts2 = styled.p`
   color: grey;
   font-size: 1rem;
   margin-top: 1%;
-`
+`;
 
 export default function EpisodeCard(props) {
-  return <EpisodeCards>
-    <EpisodeH1>{props.episode.name}</EpisodeH1>
-    <EpisodeGreyTexts>Air Date:{props.episode.air_date}</EpisodeGreyTexts>
+  return <EpisodeCards2>
+    <EpisodeH12>{props.episode.name}</EpisodeH12>
+    <EpisodeGreyTexts2>Air Date:{props.episode.air_date}</EpisodeGreyTexts2>
     <p>Created: {props.episode.created}</p>
-  </EpisodeCards>;
+  </EpisodeCards2>;
 }
