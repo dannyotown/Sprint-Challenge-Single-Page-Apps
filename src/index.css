@@ -23,6 +23,9 @@ main {
 .page-view {
   min-height: 40vh;
 }
+p{
+  margin: 0%;
+}
 
 .grid-view div.card.ui {
   margin: 1.25rem;
@@ -36,4 +39,26 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+.Card{
+  width: 50%;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+}
+.linkText{
+  color: grey;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.Navigation{
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
